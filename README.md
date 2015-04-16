@@ -9,8 +9,9 @@ Please feel free to clone and use them to your own purposes.
 The code written are not entirely my own. They have been inspired by a lot of online CSS coders.I respect and thank them, sorry couldn't list all of your names, but I thank you all humbly.
 
 Few of the effects are:
- #Image Splitting effect
- This is a very cool thumnail effect in which the background image splits to give you the underlying text. This can be used in a number ofm places in your websites or web projects. 
+
+ 1. Image Splitting effect
+ 	This is a very cool thumnail effect in which the background image splits to give you the underlying 		text. This can be used in a number ofm places in your websites or web projects. 
  
  
 Please feel free to use any of the effects in your page as per your need.
