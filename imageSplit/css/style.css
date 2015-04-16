@@ -1,0 +1,86 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #fff;
+}
+
+.reveal {
+	height: 300px;
+	width: 300px;
+	margin: 50px;
+	float: left;
+}
+
+.firstImage {
+	background: url('../img/first-image-split.png') 0px 150px, url('../img/first-image-split.png') 0px -225px, #4C1C0E;
+	background-repeat: no-repeat;
+	-webkit-transition: background-position 0.3s ease;
+	-moz-transition: background-position 0.3s ease;
+	-ms-transition: background-position 0.3s ease;
+	-o-transition: background-position 0.3s ease;
+	transition: background-position 0.3s ease;
+}
+
+.firstImage:hover {
+	background: url('../img/first-image-split.png') 0px 210px, url('../img/first-image-split.png') 0px -285px, linear-gradient(90deg, #B7D5F1, #41211A);
+	/* #6AB1D5;*/
+	
+	background-repeat: no-repeat;
+}
+
+.secondImage {
+	background: url('../img/second-image-split.png') 0px 150px, url('../img/second-image-split.png') 0px -225px, linear-gradient(90deg, #B7D5F1, #41211A);
+	background-repeat: no-repeat;
+	-webkit-transition: background-position 0.3s ease;
+	-moz-transition: background-position 0.3s ease;
+	-ms-transition: background-position 0.3s ease;
+	-o-transition: background-position 0.3s ease;
+	transition: background-position 0.3s ease;
+}
+
+.secondImage:hover {
+	background: url('../img/second-image-split.png') 0px 210px, url('../img/second-image-split.png') 0px -285px, linear-gradient(90deg, #0E191C, #8CB3B9, #091012);
+	/* #6AB1D5;*/
+	
+	background-repeat: no-repeat;
+}
+
+.thirdImage {
+	background: url('../img/third-image-split.png') 0px 150px, url('../img/third-image-split.png') 0px -225px, linear-gradient(90deg, #181006, #fff);
+	background-repeat: no-repeat;
+	-webkit-transition: background-position 0.3s ease;
+	-moz-transition: background-position 0.3s ease;
+	-ms-transition: background-position 0.3s ease;
+	-o-transition: background-position 0.3s ease;
+	transition: background-position 0.3s ease;
+}
+
+.thirdImage:hover {
+	background: url('../img/third-image-split.png') 0px 210px, url('../img/third-image-split.png') 0px -285px, linear-gradient(90deg, #181006, #fff);
+	/* #6AB1D5;*/
+	
+	background-repeat: no-repeat;
+}
+
+.reveal p {
+	/*			background: linear-gradient(#D7C6B1, #CDCFD5);*/
+	
+	font: 45px/300px Helvetica, Arial, sans-serif;
+	text-align: center;
+	filter: alpha(opacity 0);
+	opacity: 0;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.reveal:hover p {
+	color: wheat;
+	filter: alpha(opacity=100);
+	opacity: 1;
+	cursor: pointer;
+}
